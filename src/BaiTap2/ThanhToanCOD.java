@@ -13,8 +13,9 @@ public class ThanhToanCOD implements IThanhToan {
 
     @Override
     public double thanhtoan(int tienhang) {
-        if( tienhang >2000000)
-            return tienhang-tienhang*0.98;
+        // mua hơn 2tr giảm 2% ít hơn không giảm
+        if( tienhang >2000000) 
+            return tienhang*0.98;
         return tienhang;
         
     }
