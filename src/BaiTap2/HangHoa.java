@@ -22,7 +22,7 @@ public class HangHoa {
         this.gia = gia;
         this.mota = mota;
     }
-
+    // khai báo getter và setter
     public String getTenHH() {
         return tenHH;
     }
@@ -46,6 +46,10 @@ public class HangHoa {
     public void setMota(String mota) {
         this.mota = mota;
     }
-    
+    // hiển thị thông tin
+      public void hienThiHH()
+    {
+        System.out.print("\nTên hàng hóa: "+ tenHH + " Giá tiền: " + gia + " Mô tả: " + mota);
+    }
     
 }
