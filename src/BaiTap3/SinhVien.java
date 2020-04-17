@@ -50,7 +50,7 @@ public class SinhVien {
     }
 
     public String Showinfo() {
-        return "SinhVien{" + "Hoten=" + Hoten + ", NgaySinh=" + NgaySinh + ", DiemTB=" + DiemTB + '}';
+        return "SinhVien:{" + "Hoten=" + Hoten + ", NgaySinh=" + NgaySinh + ", DiemTB=" + DiemTB + '}';
     }
 
     
