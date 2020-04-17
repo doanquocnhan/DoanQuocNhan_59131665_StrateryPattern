@@ -13,10 +13,10 @@ public class ThanhToanOline implements IThanhToan{
 
     @Override
     public double thanhtoan(int tienhang) 
-    {
+    {   // it hơn 1tr giảm 5% nhiều hơn giảm 7% 
         if (tienhang < 1000000)
-            return tienhang-tienhang * 0.95;
-        return tienhang-tienhang * 0.97;
+            return tienhang * 0.95;
+        return tienhang * 0.93;
     
     }
 }
