@@ -26,12 +26,15 @@ public class Main3 {
         dsSV.ThemSV(sv1);
         dsSV.ThemSV(sv2);
         // In danh sách
+        System.out.println("\nSắp xếp danh sách mặc định");
         dsSV.inDS();
         //Sắp xếp danh sách theo tên
+        System.out.println("\nSắp xếp danh sách theo tên");
         dsSV.setSoSanh(new SoSanhTheoTen());
         dsSV.sapxep();
         dsSV.inDS();
         //Sắp xếp danh sách theo điểm
+        System.out.println("\nSắp xếp danh sách theo điểm");
         dsSV.setSoSanh(new SoSanhTheoDiem());
         dsSV.sapxep();
         dsSV.inDS();
